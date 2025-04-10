@@ -1,0 +1,107 @@
+body{
+    background-image: url("/img/colorful-vintage-world-map-xot9od4651kl3pk4.jpg");
+}
+
+.nav {
+  background: rgba(0, 0, 0, 0.6); 
+  box-shadow: none;
+}
+  
+.sidenav {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+#buttons{
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+#cep_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6); 
+  border: 2px solid black;
+  margin-right: 100px;
+  height: 150px; 
+  width: 250px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#rua_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6); 
+  border: 2px solid black;
+  margin-right: 100px;
+  height: 150px; 
+  width: 250px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#cep_button:hover{
+  background: rgba(83, 83, 83, 0.6); 
+  box-shadow: none;
+  margin-right: 100px;
+  height: 150px; 
+  width: 250px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#rua_button:hover{
+  background: rgba(102, 102, 102, 0.6); 
+  box-shadow: none;
+  margin-right: 100px;
+  height: 150px; 
+  width: 250px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#logo{
+  margin-top: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+#test1{
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 100px;
+  width: 1300px;
+  height: 700px;
+}
+
+#test2{
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 100px;
+  width: 1300px;
+  height: 700px;
+  }
+
+.input-field i.prefix {
+  color: rgb(0, 128, 128);
+}
+
+#cep{
+  color: white;
+}
+
+#street{
+  color: white;
+}
